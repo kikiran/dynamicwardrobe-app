@@ -1,12 +1,34 @@
-# React + Vite
+# 👗 Dynamic Wardrobe 🎨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive React application that allows users to customize a virtual wardrobe by **dragging and dropping colors** onto a shirt and pants SVG preview. It's a fun way to learn about React, Tailwind CSS, and basic drag-and-drop events in the browser.
 
-Currently, two official plugins are available:
+## 🖼️ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎨 50-color palette to choose from
+- 🧲 Drag-and-drop color onto shirt (top) and pants (bottom)
+- 👕 Live preview of outfit using SVG graphics
+- ⚡ Built with React and Tailwind CSS
+- 🖱️ Right-click or click support (optional)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Demo
+
+> https://dynamicwardrobe.netlify.app
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ **React** – UI components and state management
+- 💨 **Tailwind CSS** – Utility-first styling
+- 🖼️ **SVG** – For outfit illustrations
+- 🖱️ **Drag & Drop API** – For interactivity
+
+---
+
+
+
+https://github.com/user-attachments/assets/098e2522-57a3-48ac-b2b4-ef13645f7507
+
+
