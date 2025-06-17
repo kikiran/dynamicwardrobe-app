@@ -1,12 +1,11 @@
-import { useState } from 'react'
-import './App.css'
-import ColorPalette from './components/colorpalette'
-import WardRobe from './components/WardRobe'
+import { useState } from "react";
+import "./App.css";
+import ColorPalette from "./components/ColorPalette";
+import WardRobe from "./components/WardRobe";
 
 function App() {
   const [colorTop, setColorTop] = useState("#ffffff");
   const [colorBottom, setColorBottom] = useState("#ffffff");
-
 
   return (
     <>
@@ -18,7 +17,9 @@ function App() {
         </div>
         <div className="flex flex-row justify-between gap-4 mt-4">
           <div className="w-1/3 p-12 bg-amber-50 rounded-lg">
-            <h1 className="pt-5 pb-5 text-2xl text-blue-500 font-bold">Color Palette</h1>
+            <h1 className="pt-5 pb-5 text-2xl text-blue-500 font-bold">
+              Color Palette
+            </h1>
             <ColorPalette
               colorTop={colorTop}
               setColorTop={setColorTop}
@@ -43,4 +44,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
